@@ -1,1 +1,33 @@
-/* Write your CSS here! */
+body {
+    text-align: center;
+    background: #dbdafa;
+    margin: 8px;
+    display: block;
+}
+img {
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%
+}
+h3 {
+    color: rgb(38, 0, 115)
+}
+.introduction {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.3fr 1fr;
+    column-gap: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+   }
+#mainHeading {
+    color: red
+ }  
+.funParagraph {
+    color: green
+}
+
